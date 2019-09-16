@@ -11,6 +11,6 @@ function BoardMember( name, homeState, training) {
   };
   
   this.doCharity = function() {
-    console.log( 'I like to help people.');
+    return 'I like to help people.';
   }
 }
